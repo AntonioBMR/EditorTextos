@@ -91,7 +91,7 @@ public class MainActivity extends Activity {
             osw.write(texto);
             osw.flush();
             osw.close();
-            tostada(" guardado");
+            tostada(" texto guardado ");
 
         } catch (IOException e1) {
             e1.printStackTrace();
