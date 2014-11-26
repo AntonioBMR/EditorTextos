@@ -17,6 +17,7 @@
             android:onClick="guardar"
             android:id="@+id/button"
             android:layout_weight="1" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,6 +25,7 @@
             android:id="@+id/button2"
             android:onClick="salir"
             android:layout_weight="1" />
+
     </LinearLayout>
     <ScrollView
         android:layout_width="fill_parent"
